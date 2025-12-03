@@ -5,7 +5,7 @@ const MAX_POS: i32 = 99;
 const MIN_POS: i32 = 0;
 
 fn main() {
-    let turns = fs::read_to_string("assets/puzzle.txt").expect("Unable to read file");
+    let turns = fs::read_to_string("../assets/puzzleday01.txt").expect("Unable to read file");
 
     let mut new_pos = STARTING_POS;
     let mut count = 0;
